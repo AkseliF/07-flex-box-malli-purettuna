@@ -1,8 +1,17 @@
 html{
     font-size: 62.5%;
 }
-p{
+p.color-red{
     background-color: red;
+    color: red;
+}
+p.color-blue{
+    background-color: blue;
+    color: blue;
+}
+p.color-green{
+    background-color: green;
+    color: green;
 }
 .parent {
     display: flex;
