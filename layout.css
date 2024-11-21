@@ -1,0 +1,22 @@
+html{
+    font-size: 62.5%;
+}
+p{
+    background-color: red;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.parent > * {
+    flex-basis: 0px;
+    flex-grow: 1;
+    order: 2;
+}
+.parent .color-blue {
+    flex-grow: 2;
+}
+.parent .color-green {
+    order: 1;
+}
